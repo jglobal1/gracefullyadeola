@@ -159,7 +159,7 @@ export default function Home() {
             <div
               key={i}
               className="absolute w-1 h-1 bg-yellow-300 rounded-full animate-sparkle"
-              style={{
+          style={{
                 left: animation.left,
                 top: animation.top,
                 animationDelay: animation.delay,
@@ -184,10 +184,10 @@ export default function Home() {
               <span className="block text-pink-200 animate-slideInLeft" style={{ animationDelay: '1.2s' }}>Adejumoke</span>
               <div className="flex justify-center items-center my-4 md:my-6 lg:my-8 animate-bounce" style={{ animationDelay: '1.5s' }}>
                 <img src="/ring.png" alt="Wedding Rings" className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-32 lg:h-32 xl:w-40 xl:h-40 object-contain drop-shadow-lg" />
-              </div>
+            </div>
               <span className="block text-sky-200 animate-slideInRight" style={{ animationDelay: '1.8s' }}>&</span>
               <span className="block text-sky-200 animate-slideInRight" style={{ animationDelay: '2.1s' }}>Olaoluwa</span>
-            </h1>
+          </h1>
           </div>
           
           {/* Date with animation */}
@@ -543,7 +543,7 @@ export default function Home() {
               <p className="text-green-700 mb-4">
                   Your love and support mean the world to us. We are truly blessed to have you in our lives and look forward to celebrating this special day with you.
                 </p>
-            </div>
+              </div>
             </div>
           </div>
         </div>
@@ -643,8 +643,8 @@ export default function Home() {
                 <div className="w-24 h-24 bg-gradient-to-br from-purple-100 to-pink-100 rounded-full flex items-center justify-center animate-pulse-glow hover:scale-110 transition-transform duration-300 shadow-lg">
                   <MessageCircle className="w-12 h-12 text-purple-600 animate-bounce" style={{ animationDelay: '1.2s' }} />
                 </div>
-              </div>
-              
+            </div>
+            
               <p className="text-lg md:text-xl text-gray-700 leading-relaxed mb-10 animate-slideInLeft" style={{ animationDelay: '1.5s' }}>
                 For any questions or inquiries about our special day, please feel free to contact us. We're here to help make your experience perfect! 💕
               </p>
