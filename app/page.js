@@ -182,11 +182,10 @@ export default function Home() {
           <div className="animate-fadeInUp" style={{ animationDelay: '1s' }}>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-4 tracking-tight drop-shadow-2xl">
               <span className="block text-pink-200 animate-slideInLeft" style={{ animationDelay: '1.2s' }}>Adejumoke</span>
-              <div className="flex justify-center items-center my-4 md:my-6 lg:my-8 animate-bounce" style={{ animationDelay: '1.5s' }}>
+              <div className="flex justify-center items-center my-2 md:my-3 lg:my-4 animate-bounce" style={{ animationDelay: '1.5s' }}>
                 <img src="/ring.png" alt="Wedding Rings" className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-32 lg:h-32 xl:w-40 xl:h-40 object-contain drop-shadow-lg" />
             </div>
-              <span className="block text-sky-200 animate-slideInRight" style={{ animationDelay: '1.8s' }}>&</span>
-              <span className="block text-sky-200 animate-slideInRight" style={{ animationDelay: '2.1s' }}>Olaoluwa</span>
+              <span className="block text-sky-200 animate-slideInRight" style={{ animationDelay: '1.8s' }}>Olaoluwa</span>
           </h1>
           </div>
           
@@ -338,7 +337,7 @@ export default function Home() {
                     <Users className="w-6 h-6 md:w-8 md:h-8 text-white" />
                   </div>
                   <div>
-                    <h3 className="text-xl md:text-2xl font-bold text-navy-900 font-serif">CHURCH LOCATION</h3>
+                    <h3 className="text-xl md:text-2xl font-bold text-navy-900 font-serif">CHURCH WEDDING</h3>
                     <p className="text-sm md:text-base text-gray-600">The Sacred Union</p>
                   </div>
                 </div>
@@ -646,7 +645,7 @@ export default function Home() {
             </div>
             
               <p className="text-lg md:text-xl text-gray-700 leading-relaxed mb-10 animate-slideInLeft" style={{ animationDelay: '1.5s' }}>
-                For any questions or inquiries about our special day, please feel free to contact us. We're here to help make your experience perfect! 💕
+                For any questions or inquiries about our special day, please feel free to contact us. 💕
               </p>
               
               <div className="space-y-6 animate-fadeInUp" style={{ animationDelay: '1.8s' }}>
@@ -692,7 +691,7 @@ export default function Home() {
       <footer className="py-12 px-4 relative bg-gradient-to-br from-navy-900 via-sky-800 to-blue-900 text-center">
         <div className="max-w-4xl mx-auto">
           <h3 className="text-3xl font-bold mb-4 text-white animate-fadeInDown" style={{ animationDelay: '0.3s' }}>GracefullyAdeola</h3>
-          <p className="text-sky-200 mb-6 font-medium animate-fadeInUp" style={{ animationDelay: '0.6s' }}>November 22, 2025</p>
+          <p className="text-sky-200 mb-6 font-medium animate-fadeInUp" style={{ animationDelay: '0.6s' }}>Saturday, November 22nd, 2025</p>
           <div className="flex justify-center gap-2 mb-6 animate-fadeInUp" style={{ animationDelay: '0.9s' }}>
             {[...Array(7)].map((_, i) => (
               <Heart key={i} className="w-5 h-5 text-pink-300 fill-current animate-pulse-glow hover:scale-110 transition-transform duration-300" style={{ animationDelay: `${i * 0.2}s` }} />
